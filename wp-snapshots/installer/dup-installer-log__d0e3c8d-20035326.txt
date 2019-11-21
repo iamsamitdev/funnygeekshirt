@@ -1,0 +1,394 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:01:14
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.3                                 |7.0.33
+OS__________________: WINNT                                 |Linux
+CREATED_____________: 2019-11-20 03:53:26
+WP VERSION__________: 5.2.4
+DUP VERSION_________: 1.3.24
+DB__________________: 10.1.38
+DB TABLES___________: 13
+DB ROWS_____________: 515
+DB FILE SIZE________: 1.91MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.0.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Amazon) PHP/7.0.33
+DOC ROOT____________: "/var/www/html/funnygeekshirt"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://3.135.20.40/funnygeekshirt/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191120_basicwordpresswebsite_d0e3c8d1ed5a87556809_20191120035326_archive.zip"
+SIZE________________: 26.01MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/var/www/html/funnygeekshirt/20191120_basicwordpresswebsite_d0e3c8d1ed5a87556809_20191120035326_archive.zip' -d '/var/www/html/funnygeekshirt' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/html/funnygeekshirt/dup-installer/ctrls/ctrl.s1.php|LINE:404]
+[PHP ERR][WARN] MSG:touch(): Utime failed: Permission denied [CODE:2|FILE:/var/www/html/funnygeekshirt/dup-installer/ctrls/ctrl.s1.php|LINE:404]
+
+STEP-1 COMPLETE @ 07:01:15 - RUNTIME: 0.8314 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:03:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.45 -- Build Server: 10.1.38
+FILE SIZE:	dup-database__d0e3c8d-20035326.sql (916.15KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/html/funnygeekshirt/dup-installer/dup-installer-data__d0e3c8d-20035326.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.45] is less than the build version [10.1.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (2)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (131)
+wp_postmeta: (215)
+wp_posts: (103)
+wp_term_relationships: (11)
+wp_term_taxonomy: (7)
+wp_termmeta: (0)
+wp_terms: (7)
+wp_usermeta: (22)
+wp_users: (1)
+Removed '31' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4538 sec.
+STEP-2 COMPLETE @ 07:03:43 - RUNTIME: 0.4559 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:04:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "จำหน่ายเสื้อยืดโปรแกรมเมอร์ตลกๆ"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/basicwpsite/"
+path_new______________: "/var/www/html/funnygeekshirt/"
+siteurl_______________: "http://3.135.20.40/funnygeekshirt"
+url_old_______________: "http://localhost/basicwpsite"
+url_new_______________: "http://3.135.20.40/funnygeekshirt"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "basicwpsitedb"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   131][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   215][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   103][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/basicwpsite/" ====================> "/var/www/html/funnygeekshirt/"
+	SEARCH  2:"C:\/xampp\/htdocs\/basicwpsite\/" ================> "\/var\/www\/html\/funnygeekshirt\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fbasicwpsite%2F" ==========> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt%2F"
+	SEARCH  4:"C:\xampp\htdocs\basicwpsite" =====================> "/var/www/html/funnygeekshirt"
+	SEARCH  5:"C:\\xampp\\htdocs\\basicwpsite" ==================> "\/var\/www\/html\/funnygeekshirt"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cbasicwpsite" =============> "%2Fvar%2Fwww%2Fhtml%2Ffunnygeekshirt"
+	SEARCH  7:"//localhost/basicwpsite" =========================> "//3.135.20.40/funnygeekshirt"
+	SEARCH  8:"\/\/localhost\/basicwpsite" ======================> "\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH  9:"%2F%2Flocalhost%2Fbasicwpsite" ===================> "%2F%2F3.135.20.40%2Ffunnygeekshirt"
+	SEARCH 10:"https://3.135.20.40/funnygeekshirt" ==============> "http://3.135.20.40/funnygeekshirt"
+	SEARCH 11:"https:\/\/3.135.20.40\/funnygeekshirt" ===========> "http:\/\/3.135.20.40\/funnygeekshirt"
+	SEARCH 12:"https%3A%2F%2F3.135.20.40%2Ffunnygeekshirt" ======> "http%3A%2F%2F3.135.20.40%2Ffunnygeekshirt"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:499 	|	 Cells:3984 
+UPDATED:	Tables:2 	|	 Rows:107 	|	 Cells:139 
+ERRORS:		0 
+RUNTIME:	0.056300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""basicwpsitedb""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:04:29 - RUNTIME: 0.0986 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

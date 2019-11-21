@@ -1,0 +1,35 @@
+#customize-controls .control-section-charity .accordion-section-title:hover,
+#customize-controls .control-section-charity .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-charity .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-charity .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+a.button.button-secondary.alignright {
+  background: #006799;
+  color: #fff;
+  border: solid 1px #0073aa;
+  font-size: 15px;
+  padding: 0 20px;
+}
+a.button.button-secondary.alignright:hover {
+	background: #0073aa;
+}
+
+/* ---------Excerpt & Logo --------- */
+input#_customize-input-logo_size,input#_customize-input-perfect_blog_excerpt_number{
+    width: 100%;
+}
+li#customize-control-logo_size {
+    background: #fff;
+    padding: 4px;
+}
